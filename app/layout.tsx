@@ -3,6 +3,7 @@ import { DM_Sans, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Nav from '@/app/components/nav'
 import Footer from '@/app/components/footer'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -32,6 +33,7 @@ export default function RootLayout({
         <Nav />
         <main>{children}</main>
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   )
