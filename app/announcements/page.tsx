@@ -7,6 +7,19 @@ export const metadata: Metadata = {
 
 const announcements = [
   {
+    date: 'May 19, 2026',
+    tag: 'Holiday Hours',
+    title: 'Happy Victoria Day!',
+    body: "Wishing everyone a happy long weekend! We're open on Victoria Day — come in, slow down, and treat yourself to something good. Whether you're starting the day with an espresso or winding down with a baked good, we've got you covered.",
+    details: [
+      { label: 'Date', value: 'Monday, May 19, 2026' },
+      { label: 'Hours', value: '9:00 AM – 4:00 PM' },
+      { label: 'Location', value: '1714 Queen St W, Toronto' },
+      { label: 'Note', value: 'Reduced hours for the holiday' },
+    ],
+    accent: '#C4622F',
+  },
+  {
     date: 'June 17, 2026',
     tag: 'Event',
     title: 'Comedy Night at Osprey',
